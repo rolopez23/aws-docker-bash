@@ -17,6 +17,7 @@ const App = () => {
     }
 
   }, [])
+  
   if(error) {
     return <h1>Oops...</h1>
   }

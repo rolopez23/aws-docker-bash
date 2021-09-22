@@ -21,7 +21,7 @@ const proxyAtelier = async (req, res) => {
   }
   //try and send a request
   try {
-    //remember you normally await promises
+    //remember you can await promises
     const response = await axios(config);
     res.status(response.status).send(response.data)
   } catch (err) {
