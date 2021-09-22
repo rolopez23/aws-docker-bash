@@ -2,7 +2,7 @@
 require('dotenv').config()
 const path = require("path");
 
-const isProduction = process.env.NODE_ENV == "production";
+const isProduction = process.env.NODE_ENV === "production";
 
 const config = {
   entry: "./client/index.js",
