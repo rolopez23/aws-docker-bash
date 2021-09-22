@@ -15,4 +15,4 @@ RUN npm run react-prod
 # Expose a port
 EXPOSE 3100
 # Setup server
-CMD ['node', 'server/server.js']
+CMD ["node server/server.js"]
