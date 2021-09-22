@@ -10,10 +10,8 @@ const proxyAtelier = async (req, res) => {
   if(Object.keys(body).length === 0) {
     body = null;
   }
-
   //construct final url keep it as an environment variable
   url = process.env.BASE_URL + url;
-
   //define config for axios
   const config = {
     url,
