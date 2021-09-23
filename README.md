@@ -1,15 +1,7 @@
 # 🚀 Welcome to your new awesome project!
+This is built with a `webpack --init`
 
-This project has been created using **webpack-cli**, you can now run
+## See the aws folder for sample commands to save to AWS
 
-```
-npm run build
-```
+## See the server for an example proxy
 
-or
-
-```
-yarn build
-```
-
-to bundle your application
