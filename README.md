@@ -1,5 +1,5 @@
-# 🚀 Welcome to your new awesome project!
-This is built with a `webpack --init`
+# 🚀 Welcome to your AWS-Docker folder
+
 
 ## See the aws folder for sample commands to save to AWS
 
